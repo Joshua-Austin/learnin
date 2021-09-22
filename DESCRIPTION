@@ -1,16 +1,23 @@
 Package: learnin
-Title: What the Package Does (One Line, Title Case)
+Title: Makes 2 factors 1
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Joshua",
+           family = "Austin",
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Combines 2 factors into one, without then holding their originalstructures.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    glue,
+    forcats
+URL: https://github.com/Joshua-Austin/learnin
+BugReports: https://github.com/Joshua-Austin/learnin/issues
